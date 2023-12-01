@@ -34,7 +34,7 @@
         top: 20%;
         left: 38%;
         background: linear-gradient(130deg, #FF5EAB 0.87%, #756BFF);
-        padding: 150px 150px;
+        padding: 170px 180px;
         border-radius: 0 25px 25px 25px;
     }
 
@@ -68,14 +68,14 @@
 
             .input-area {
                 display: flex;
-                color: var(--btn-color);
-                justify-content: center;
                 align-items: center;
                 gap: 5px;
+                color: var(--btn-color);
 
                 input {
+                    width: 120px;
                     background: var(--input-bg-colr);
-                    padding: 9px 10px;
+                    padding: 10px;
                     border: 2px solid var(--input-bg-colr);
                     border-radius: 4px;
                 }
@@ -88,13 +88,15 @@
 
                 img {
                     cursor: pointer;
-                    font-size: 18px;
+                    width: 25px;
+                    height: 25px;
+
                 }
 
                 .img-text {
                     cursor: pointer;
                     color: var(--btn-color);
-                    font-size: 14px;
+                    font-size: 12px;
                     font-weight: 700;
                 }
             }
